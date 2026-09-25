@@ -1,0 +1,82 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+}
+
+.conf-div-navbar {
+  background-color: #222;
+  width: 100%;
+  height: 50px;
+}
+
+.conf-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.conf-li {
+  list-style-type: none;
+  padding: 10px;
+  color: white;
+  margin: 10px;
+}
+
+.conf-li:hover {
+  background-color: #1500;
+  transition: .2s ease-in-out;
+  transition-delay: .3s;
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+}
+
+.container-gambar {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.a-gambar {
+  background-color: white;
+  width: 700px;
+  height:350px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 100px;
+}
+.gambar {
+  width: 300px;
+  height: 300px;
+}
+
+.kaki {
+  background-color: #222;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+
+.p {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  background-color: #333
+  
+}
